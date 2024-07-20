@@ -545,6 +545,8 @@ section {
   padding-left: 20px;
 }
 
+
+
 .resume .resume-item ul li {
   padding-bottom: 10px;
 }
@@ -1200,10 +1202,12 @@ section {
 #footer .credits {
   font-size: 13px;
 }
-#skills .skills-content img{
+
+#skills .skills-content img {
   width: 70px;
 }
-#skills .skills-content .col-lg-2 div{
+
+#skills .skills-content .col-lg-2 div {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -1214,49 +1218,75 @@ section {
   justify-content: center;
   margin-bottom: 10px;
 }
-.social-links i:before{
+
+.social-links i:before {
   text-shadow: 0px 0px 8px #DB9A64;
 }
-.resume li{
+
+.resume li {
   font-size: 12px;
 }
+
 .portfolio .portfolio-container {
-  height: auto!important;
+  height: auto !important;
 }
-.accordion-button:not(.collapsed){
+
+.accordion-button:not(.collapsed) {
   background-color: #DB9A64;
   color: #fff;
 }
-.accordion-button:not(.collapsed) span{
-  color: #fff!important;
+
+.accordion-button:not(.collapsed) span {
+  color: #fff !important;
 }
-.portfolio-container .accordion-button{
+
+.portfolio-container .accordion-button {
   font-weight: bold;
   outline: none;
   border: none;
 }
-.portfolio-container .accordion-button span{
+
+.portfolio-container .accordion-button span {
   font-weight: normal;
   color: rgb(143 141 143);
   font-size: 12px;
   color: #fff;
 }
-#skills .col-lg-2{
+
+#skills .col-lg-2 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#footer{
+
+#footer {
   background: #3a282e;
 }
-.accordion-body a{
+
+.accordion-body a {
   text-decoration: underline;
   font-size: 20px;
   color: #DB9A64;
 }
-.accordion-body a:hover{
+
+.accordion-body a:hover {
   color: #DB9A64;
 }
-.bi-list::before{
+
+.bi-list::before {
   color: #fff;
+}
+
+/* This is New Map CSS Code */
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 50%;
+  width: 50%;
+  left: 0;
+  top: 0;
+  position: absolute;
 }
